@@ -1,0 +1,79 @@
+Plain Data - No Transformation: 
+X1 min: -306.0   X1 max: 509.0
+Y1 min: -271.0   Y1 max: 533.0
+Z1 min: -603.0   Z1 max: 411.0
+X2 min: -494.0   X2 max: 473.0
+Y2 min: -517.0   Y2 max: 295.0
+Z2 min: -617.0   Z2 max: 122.0
+X3 min: -499.0   X3 max: 507.0
+Y3 min: -506.0   Y3 max: 517.0
+Z3 min: -613.0   Z3 max: 410.0
+X4 min: -702.0   X4 max: -13.0
+Y4 min: -526.0   Y4 max: 86.0
+Z4 min: -537.0   Z4 max: -43.0
+
+gender min: 1.0   gender max: 2.0
+age:28.0   age max: 75.0
+how_tall_in_meters: 1.71   how_tall_in_meters: 1.58
+weight: 55.0   weight max: 83.0
+body_mass_index: 22.0   body_mass_index: 28.6
+
+Quantile Transformation: 
+X1 min: 0.0   X1 max: 1.0
+Y1 min: 0.0   Y1 max: 1.0
+Z1 min: 0.0   Z1 max: 1.0
+X2 min: 0.0   X2 max: 1.0
+Y2 min: 0.0   Y2 max: 1.0
+Z2 min: 0.0   Z2 max: 1.0
+X3 min: 0.0   X3 max: 1.0
+Y3 min: 0.0   Y3 max: 1.0
+Z3 min: 0.0   Z3 max: 1.0
+X4 min: 0.0   X4 max: 1.0
+Y4 min: 0.0   Y4 max: 1.0
+Z4 min: 0.0   Z4 max: 1.0
+
+gender min: 0.0   gender max: 1.0
+age:0.0   age max: 1.0
+how_tall_in_meters: 1.0   how_tall_in_meters: 0.0
+weight: 0.0   weight max: 1.0
+body_mass_index: 0.0   body_mass_index: 1.0
+
+Standard Transformation: 
+X1 min: -25.770020588646513   X1 max: 44.390390296789214
+Y1 min: -15.03584151229045   Y1 max: 18.61022647166735
+Z1 min: -12.936912556534745   Z1 max: 12.793010168531213
+X2 min: -2.3972132003064957   X2 max: 3.309986984091495
+Y2 min: -2.2662083644737923   Y2 max: 1.6916885421813388
+Z2 min: -2.2920459940026814   Z2 max: 1.5406129817955974
+X3 min: -9.81133684991895   X3 max: 9.3012801057035
+Y3 min: -11.273340829654904   Y3 max: 7.616594443420545
+Z3 min: -11.436936716996609   Z3 max: 11.101249543996518
+X4 min: -13.947840614575531   X4 max: 4.0364470489133035
+Y4 min: -21.702819079817157   Y4 max: 8.94530896935471
+Z4 min: -28.541682270437832   Z4 max: 8.823172262004054
+
+gender min: -0.7961599196848763   gender max: 1.2560290656126025
+age:-0.7786024524318533   age max: 2.786383799689108
+how_tall_in_meters: 1.330700539033952   how_tall_in_meters: -1.130474910982584
+weight: -1.4003805822162012   weight max: 1.078258265988651
+body_mass_index: -1.3981485727411826   body_mass_index: 0.804956084954841
+
+Min-Max Transformation: 
+X1 min: 0.0   X1 max: 1.0
+Y1 min: 0.0   Y1 max: 1.0
+Z1 min: 0.0   Z1 max: 1.0
+X2 min: 0.0   X2 max: 1.0
+Y2 min: 0.0   Y2 max: 1.0
+Z2 min: 0.0   Z2 max: 1.0
+X3 min: 0.0   X3 max: 0.9999999999999999
+Y3 min: 0.0   Y3 max: 1.0
+Z3 min: 0.0   Z3 max: 1.0
+X4 min: 0.0   X4 max: 1.0
+Y4 min: 0.0   Y4 max: 1.0
+Z4 min: 0.0   Z4 max: 1.0
+
+gender min: 0.0   gender max: 1.0
+age:0.0   age max: 1.0
+how_tall_in_meters: 1.0   how_tall_in_meters: 0.0
+weight: 0.0   weight max: 0.9999999999999998
+body_mass_index: 0.0   body_mass_index: 1.0
