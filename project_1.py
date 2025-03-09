@@ -6,7 +6,8 @@ import numpy as np
 from sklearn.preprocessing import QuantileTransformer, LabelEncoder
 from sklearn.model_selection import KFold
 
-from tensorflow.keras.optimizers import Nadam
+# from tensorflow.keras.optimizers import Nadam
+from keras.optimizers import Nadam
 
 from keras.regularizers import L2
 from keras.metrics import CategoricalCrossentropy, MeanSquaredError, CategoricalAccuracy
@@ -102,7 +103,7 @@ def import_from_csv_and_change_values():
 def main():
     start_dataframe = import_from_csv_and_change_values()
     print("Data reached and ready!")
-
+    print(start_dataframe)
     norm_dataset = start_dataframe.to_numpy()
     X = norm_dataset[:, :-1]
     y = norm_dataset[:, -1]
