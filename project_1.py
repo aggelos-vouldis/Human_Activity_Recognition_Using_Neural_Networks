@@ -156,7 +156,7 @@ def main():
             monitor='val_loss', mode='min', verbose=1, patience=200)
 
         model.fit(X_train, y_train, validation_data=(X_test, y_test), verbose=0,
-                  epochs=EPOCHS, batch_size=BATCH_SIZE, callbacks=[earlyStop])
+                    epochs=EPOCHS, batch_size=BATCH_SIZE, callbacks=[earlyStop])
 
         pred = model.evaluate(
             X_test, y_test, use_multiprocessing=True, workers=4, verbose=2)
